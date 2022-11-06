@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000351
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -14,9 +15,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 116269640
-  numberOfFiles: 7
-  numberOfSubjects: 1
+  numberOfBytes: 96771225840
+  numberOfFiles: 426
+  numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -24,28 +25,117 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: Jeong, Huijeong (2022) Jeong et al (2022) Mesolimbic dopamine release conveys
-  causal associations (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000351/draft
+citation: Jeong, Huijeong; Taylor, Annie; Floeder, Joseph R ; Lohmann, Martin; Mihalas,
+  Stefan; Wu, Brenda; Zhou, Mingkang; Burke, Dennis A; K Namboodiri, Vijay Mohan (2022)
+  Jeong et al (2022) Mesolimbic dopamine release conveys causal associations (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000351/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
   email: huijeong.jeong@ucsf.edu
+  identifier: 0000-0003-1219-4191
   includeInCitation: true
   name: Jeong, Huijeong
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
+  email: Annie.Taylor@ucsf.edu
+  includeInCitation: true
+  name: Taylor, Annie
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
+  email: Joey.Floeder@ucsf.edu
+  includeInCitation: true
+  name: 'Floeder, Joseph R '
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: martin.lohmann@alleninstitute.org
+  includeInCitation: true
+  name: Lohmann, Martin
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: stefan.mihalas@gmail.com
+  includeInCitation: true
+  name: Mihalas, Stefan
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
+  email: Brenda.Wu@ucsf.edu
+  includeInCitation: true
+  name: Wu, Brenda
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
+  email: Mingkang.Zhou@ucsf.edu
+  includeInCitation: true
+  name: Zhou, Mingkang
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
+  email: Dennis.Burke@ucsf.edu
+  includeInCitation: true
+  name: Burke, Dennis A
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - name: University of California, San Francisco
+    schemaKey: Affiliation
+  email: vijaymohan.knamboodiri@ucsf.edu
+  includeInCitation: true
+  name: K Namboodiri, Vijay Mohan
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: R00MH118422, R01MH129582
+  contactPoint: []
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  includeInCitation: false
+  name: Scott Alan Myers Endowed Professorship
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2022-11-04T18:47:21.880790+00:00'
 description: 'This dataset includes fiber photometry (NAcc) and behavioral data from
   Jeong et al., 2022: "Mesolimbic dopamine release conveys causal associations".'
+ethicsApproval: []
 id: DANDI:000351/draft
 identifier: DANDI:000351
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000351/versions/draft/assets/
 name: Jeong et al (2022) Mesolimbic dopamine release conveys causal associations
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000351/draft
 version: draft
+wasGeneratedBy: []
