@@ -100,6 +100,7 @@ contributor:
   - name: University of California, San Francisco
     schemaKey: Affiliation
   email: vijaymohan.knamboodiri@ucsf.edu
+  identifier: 0000-0002-6674-610X
   includeInCitation: true
   name: K Namboodiri, Vijay Mohan
   roleName:
@@ -120,7 +121,9 @@ contributor:
   schemaKey: Organization
 dateCreated: '2022-11-04T18:47:21.880790+00:00'
 description: 'This dataset includes fiber photometry (NAcc) and behavioral data from
-  Jeong et al., 2022: "Mesolimbic dopamine release conveys causal associations".'
+  Jeong et al., 2022: "Mesolimbic dopamine release conveys causal associations". Animals
+  names and session numbers used for each figure can be found from ''Subject and session
+  information'' in Related resource.'
 ethicsApproval: []
 id: DANDI:000351/draft
 identifier: DANDI:000351
@@ -131,7 +134,12 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000351/versions/draft/assets/
 name: Jeong et al (2022) Mesolimbic dopamine release conveys causal associations
 protocol: []
-relatedResource: []
+relatedResource:
+- name: Subject and session information
+  relation: dcite:IsSupplementedBy
+  repository: Google spreadsheet
+  schemaKey: Resource
+  url: https://docs.google.com/spreadsheets/d/1pmpQ5JFhg4Q7h18DQYifjNrW17HtaoPHBt2vJF4mxiU/edit#gid=0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
