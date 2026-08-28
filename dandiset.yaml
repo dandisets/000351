@@ -29,7 +29,7 @@ assetsSummary:
 citation: Jeong, Huijeong; Taylor, Annie; Floeder, Joseph R ; Lohmann, Martin; Mihalas,
   Stefan; Wu, Brenda; Zhou, Mingkang; Burke, Dennis A; K Namboodiri, Vijay Mohan (2026)
   Jeong et al (2022) Mesolimbic dopamine release conveys causal associations (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000351/draft
+  0.260828.1905) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000351/0.260828.1905
 contributor:
 - affiliation:
   - name: University of California, San Francisco
@@ -121,20 +121,34 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-11-04T18:47:21.880790+00:00'
+datePublished: '2026-08-28T19:05:45.778057+00:00'
 description: "This dataset includes fiber photometry (NAcc) and behavioral data from
   Jeong et al., 2022: \"Mesolimbic dopamine release conveys causal associations\"
   . Animals names and session numbers used for each figure can be found from 'Subject
   and session information' in Related resource."
+doi: 10.48324/dandi.000351/0.260828.1905
 ethicsApproval: []
-id: DANDI:000351/draft
+id: DANDI:000351/0.260828.1905
 identifier: DANDI:000351
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000351/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000351/0.260828.1905/assets.yaml
 name: Jeong et al (2022) Mesolimbic dopamine release conveys causal associations
 protocol: []
+publishedBy:
+  endDate: '2026-08-28T19:05:45.778057+00:00'
+  id: urn:uuid:9a0d765e-6ef7-40ca-8c25-c0a95a1e3c9e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-28T19:05:45.778057+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ac8a4c4b-5243-4102-b79c-f3d8918fe268
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Subject and session information
   relation: dcite:IsSupplementedBy
@@ -146,6 +160,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000351/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000351/0.260828.1905
+version: 0.260828.1905
 wasGeneratedBy: []
